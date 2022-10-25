@@ -1,54 +1,74 @@
 projects:
-  - title: "Detecting Network Effects"
-    subtitle: "Randomizing Over Randomized Experiments"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
+  - title: "Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics"
+    subtitle: "A paper accepted to NeurIPS Workshop Machine Learning for Structural Biology 2022"
+    thumbnail: "assets/pics/smdrl.png"
+    url: "https://www.biorxiv.org/content/10.1101/2022.10.04.510845v1"
     selected: y
 
-  - title: "Human Atlas"
-    subtitle: "Tool for Mapping Social Networks"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
+  - title: "Towards Conditional Generation of Minimal Action Potential Pathways for Molecular Dynamics"
+    subtitle: "A paper accepted to ELLIS ML4Molecules Workshop 2021."
+    thumbnail: "assets/pics/cgans.png"
+    url: "https://arxiv.org/abs/2111.14053"
     selected: y
 
-  - title: "Responsive Communities"
-    subtitle: "Pilot project in Jun, Spain"
-    thumbnail: "assets/projects/2015_jun/thumbnail.png"
-    url: "projects/2015_jun.html"
+  - title: "Particle System Dynamics for Compromised Social Networks"
+    subtitle: "This is the code and additional results for my APM541 final project on Particle System Dynamics for Compromised Social Networks."
+    thumbnail: "assets/pics/apm541.png"
+    url: "https://github.com/NickDST/Stochastic-Processes-APM541-Project"
     selected: y
 
-  - title: "Cold-Start Recommendations"
-    subtitle: "Learning Local Collective Embeddings"
-    thumbnail: "assets/projects/2014_item-cold-start/thumbnail.jpg"
-    url: "projects/2014_item-cold-start.html"
+  - title: "An Interpretable Method of Learning Stochastic Game Dynamics from CMSAC"
+    subtitle: "Developed a new physics-inspired framework for analyzing soccer ball dynamics by modeling underlying potential landscapes."
+    thumbnail: "assets/pics/cmsac.png"
+    url: "https://twitter.com/eigenNick/status/1457074500994945024"
+    selected: y
+
+  - title: "CyanoPATH - a knowledgebase of genome-scale functional repertoire for toxic cyanobacterial blooms"
+    subtitle: "CyanoPATH is a database that curates and analyzes the common genomic functional repertoire for cyanobacteria harmful algal blooms (CyanoHABs) in eutrophic waters."
+    thumbnail: "assets/pics/cyanopath.png"
+    url: "https://academic.oup.com/bib/article-abstract/22/4/bbaa375/6035272?redirectedFrom=fulltext"
+    selected: y
+
+  - title: "Bayesian Information Criterion from Scratch"
+    subtitle: "The Bayesian Information Criterion implemented from scratch in python to predict change points from noisy data."
+    thumbnail: "assets/pics/bic.png"
+    url: "https://github.com/NickDST/BIC-Step-Prediction"
+    selected: y
+
+  - title: "HonorCode Tutoring Website"
+    subtitle: "A System that organizes service and provides tutoring for members. Link for the website is tutors.concordiashanghai.org."
+    thumbnail: "assets/pics/honorcode.png"
+    url: "https://github.com/NickDST/HonorCode"
     selected: n
 
-  - title: "Semi-supervised Learning"
-    subtitle: "Iterative Hybrid Algorithm"
-    thumbnail: "assets/projects/2013_iterative-hybrid-algorithm/thumbnail.jpg"
-    url: "projects/2013_iterative-hybrid-algorithm.html"
+
+  - title: "Gibbs Sampling of a Gaussian Mixture Model from Scratch Using Python"
+    subtitle: "Using the Gibbs Sampling Scheme and Metropolis-Within-Gibbs Sampling Scheme to learn parameters of Gaussian Mixture Models."
+    thumbnail: "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+    url: "https://github.com/NickDST/Gibbs-Sampling-GMM"
     selected: n
 
-  - title: "Twitter Sentiment Analysis"
-    subtitle: "Analyzing Financial Tweets"
-    thumbnail: "assets/projects/2011_twitter-sentiment-analysis/thumbnail.png"
-    url: "projects/2011_twitter-sentiment-analysis.html"
+  - title: "Concordia International IOT Environmental Sensors and Data Analysis"
+    subtitle: "Soldered, built and programmed 30 microcontroller sensors that streamed data to an SQL database. Built a data analysis dashboard from scratch for school admins to view air quality dynamically."
+    thumbnail: "assets/pics/env.png"
+    url: "https://github.com/NickDST/Environmental-Sensors-Concordia-Shanghai-Website"
     selected: n
 
-  - title: "Wordnet Construction"
-    subtitle: "Automatic Wordnet Construction using Language Models"
-    thumbnail: "assets/projects/2010_wordnet-construction/thumbnail.jpg"
-    url: "projects/2010_wordnet-contruction.html"
+
+  - title: "Gaussian Process from Scratch with Python for simple interpolation"
+    subtitle: "Just a quick and dirty implementation of GP from scratch using python"
+    thumbnail: "assets/pics/gp.png"
+    url: "https://github.com/NickDST/Gaussian-Process-From-Scratch"
     selected: n
 
-  - title: "Fingerprint Verification"
-    subtitle: "Image processing class project"
-    thumbnail: "assets/projects/2010_fingerprint-verification/thumbnail.png"
-    url: "projects/2010_fingerprint-verification.html"
+  - title: "Viterbi Algorithm for Hidden Markov Models"
+    subtitle: "Coding up the viterbi algorithm for solving hidden markov models from scratch using python."
+    thumbnail: "assets/pics/viterbi.png"
+    url: "https://github.com/NickDST/Viterbi-Algorithm-HMM"
     selected: n
 
-  - title: "Connect Four AI Agent"
-    subtitle: "Iterative deepening and alpha-beta pruning"
-    thumbnail: "assets/projects/2009_connect-four/thumbnail.png"
-    url: "projects/2009_connect-four.html"
+  - title: "Interactive Assistant Winter"
+    subtitle: "Project Winter is a proof of concept where several APIs are connected through Flask and VueJS and activated via parsed intents from DialogFlow."
+    thumbnail: "assets/pics/winter.png"
+    url: "https://github.com/NickDST/Interactive-Assistant-Winter"
     selected: n

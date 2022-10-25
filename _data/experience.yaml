@@ -1,55 +1,66 @@
 experiences:
 
-- place: "Stanford"
-  time: "2020 - now"
-  title: "Postdoc"
-  subtitle: "MS&E"
+- place: "Harvard Medical School"
+  time: "June 2022 - Now"
+  title: "Visiting Research Scholar"
+  subtitle: "• Accepted as a visiting research fellow at Harvard DBMI through a highly competitive application process.<br>
+                • Currently developing a novel machine learning architecture to deal with missing and imbalanced modalities. 
+"
   category: "work"
 
-- place: "MIT"
-  time: "2014 - 2020"
-  title: "Ph.D. Student"
-  subtitle: "Media Lab, Laboratory for Social Machines"
+- place: "Struct. Sys. Bio at Biodesign Institute at ASU"
+  time: "May 2020 - Now"
+  title: "Research Associate"
+  subtitle: " Worked as a Research Associate in the Singharoy Lab. Lead research for my honors thesis to utilize deep ML methods with statistical mechanical methodologies. <br>  <br> 
+                • Lead and wrote a project on discovering free energy pathways with reinforcement learning <br>
+                • Developed a molecular differentiable simulator for Jax based on TorchMD <br>
+                • Helped develop novel conditional generative models for deriving free energy pathways <br>
+                • Implemented and tested several physics-informed models.<br>
+"
   category: "school"
 
-- place: "Facebook"
-  time: "Summer 2019"
-  title: "Research Scientist, Intern"
-  subtitle: "Core Data Science"
+
+- place: "Carnegie Mellon University"
+  time: "June 2021 - August 2021"
+  title: "Visiting Research Scholar"
+  subtitle: "Accepted as a visiting research fellow in CMU Statistics through a highly competitive summer research program. <br>
+                • Created and a novel methodology for using stochastic simulators for soccer game predictions. Our method had comparable results to models trained directly on scores.
+"
   category: "work"
 
-- place: "LinkedIn"
-  time: "Summer 2016"
-  title: "Research Scientist, Intern"
-  subtitle: "Experimentation Group"
+
+
+- place: "Pichel Lab Biodesign Inst."
+  time: "May 2020 - May 2021"
+  title: "Assistant Researcher under Ferran Garcia Pichel at Biodesign Institute"
+  subtitle: "Developed a Python Plugin for Qiime2 for the relationship between ribosomal gene copy number and size."
   category: "work"
 
-- place: "Amazon"
-  time: "Summer 2014"
-  title: "Machine Learning Scientist, Intern"
-  subtitle: "Scalable Machine Learning Group"
-  category: "work"
-
-- place: "Yahoo! Labs"
-  time: "Feb-Aug 2013"
-  title: "Research Scientist, Intern"
-  subtitle: "Social Media Engagement Group"
-  category: "work"
-
-- place: "EM-DMKM"
-  time: "Sep 2011 – Aug 2013"
-  title: "M.Sc. Student"
-  subtitle: "Masters in Data Mining and Knowledge Management <br/> Year 1: University Pierre et Marie Curie <br/> Year 2: Universitat Politecnica de Catalunya <br/>"
+- place: "Cao Lab Biodesign Inst."
+  time: "August 2019 – May 2021"
+  title: "Assistant Researcher"
+  subtitle: " • Conducted data engineering and analysis on genomes assembled from a metagenome in order to study the strain level variance within microbiome communities. <br>
+              •  Implemented a web system that highlighted which genes present in a pathway for particular cyanobacteria species using PFAM’s Hidden Markov Model package, JavaScript, SQL databases, shell and Python.
+"
   category: "school"
 
-- place: "Jozef Stefan Institute"
-  time: "Jan-Aug 2011"
-  title: "Research Assistant"
-  subtitle: "Department of Knowledge Technologies"
+
+- place: "Western Tool & Supply"
+  time: "June 2020 - July 2020"
+  title: "Software Engineer, Intern"
+  subtitle: "•	Implemented and trained an LSTM Recurrent Neural Network to predict customer purchase likelihoods. 
+              •	Integrating and using Bluetooth LE between microcontrollers and Google Chrome into their IOT system.
+"
   category: "work"
 
-- place: "Staffordshire University"
-  time: "2007 - 2010"
-  title: "B.Sc. Student"
-  subtitle: "Computing Science <br/> First Class Honours"
-  category: "school"
+- place: "TGEN"
+  time: "May 2020 - August 2020"
+  title: "Virtual Helios Scholar"
+  subtitle: "Due to covid, the Helios Scholars Program was moved to a virtual format."
+  category: "work"
+
+- place: "Arizona State University"
+  time: "August 2019 - May 2023"
+  title: "B.Sc. Honors Student"
+  subtitle: "Double Major in Mathematics (4.0) and Computer Science (4.0)"
+  category: "School"
