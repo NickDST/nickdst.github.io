@@ -3,7 +3,7 @@ papers:
   - title: "Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics"
     authors: "<b>Nicholas Ho</b>, John Kevin Cava, John Vant, Ankita Shukla, Jacob Miratsky, Pavan Turaga, Ross Maciejewski, Abhishek Singharoy."
     venue: "Machine Learning In Structural Biology (MLSB) Workshop at the 36th Conference on Neural Information Processing Systems"
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2022.10.04.510845v1"
     selected: y
 
   - title: "Towards Conditional Generation of Minimal Action Potential Pathways for Molecular Dynamics"
