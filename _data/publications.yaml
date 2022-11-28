@@ -8,7 +8,7 @@ papers:
 
   - title: "Towards Conditional Generation of Minimal Action Potential Pathways for Molecular Dynamics"
     authors: "John Kevin Cava, John Vant, <b>Nicholas Ho</b>, Ankita Shukla, Pavan Turaga, Ross Maciejewski, Abhishek Singharoy"
-    venue: "ELLIS ML4Molecules Workshop, October 2021"
+    venue: "ELLIS ML4Molecules Workshop, 2021"
     paper_pdf: "https://arxiv.org/pdf/2111.14053.pdf"
     code: "https://github.com/johncava/Molecular_Dyanmics_cGAN"
     selected: y
