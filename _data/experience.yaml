@@ -1,7 +1,15 @@
 experiences:
 
+- place: "Carnegie Mellon University"
+  time: "August 2023 - Now"
+  title: "PhD Student"
+  subtitle: "Advised by Prof. Jian Ma and Prof. Eric Xing.
+"
+  category: "school"
+
+
 - place: "Harvard Medical School"
-  time: "June 2022 - Now"
+  time: "June 2022 - May 2023"
   title: "Visiting Research Scholar"
   subtitle: "• Accepted as a visiting research fellow at Harvard DBMI through a highly competitive application process.<br>
                 • Currently developing a novel machine learning architecture to deal with missing and imbalanced modalities. 
@@ -9,7 +17,7 @@ experiences:
   category: "work"
 
 - place: "Struct. Sys. Bio at Biodesign Institute at ASU"
-  time: "Feb 2020 - Now"
+  time: "Feb 2020 - May 2023"
   title: "Research Associate"
   subtitle: " Worked as a Research Associate in the Singharoy Lab. Lead research for my honors thesis to utilize deep ML methods with statistical mechanical methodologies. <br>  <br> 
                 • Lead and wrote a project on discovering free energy pathways with reinforcement learning <br>
