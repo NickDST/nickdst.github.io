@@ -1,6 +1,6 @@
 projects:
   - title: "Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics"
-    subtitle: "A paper accepted to NeurIPS Workshop Machine Learning for Structural Biology 2022"
+    subtitle: "A paper accepted to NeurIPS Workshop Machine Learning for Structural Biology 2022, First Author"
     thumbnail: "assets/pics/smdrl.png"
     url: "https://www.biorxiv.org/content/10.1101/2022.10.04.510845v1"
     selected: y
