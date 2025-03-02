@@ -1,74 +1,35 @@
 experiences:
 
 - place: "Carnegie Mellon University"
-  time: "August 2023 - Now"
-  title: "PhD Student"
-  subtitle: "Advised by Prof. Jian Ma and Prof. Eric Xing.
-"
+  time: "September 2023 - Present"
+  title: "Computational Drug Discovery Researcher"
+  subtitle: "Developed an ultra-scalable SMILES-based GNN, enabling billion-scale chemical property prediction for drug discovery, battery electrolytes, green chemistry, and aerospace materials. <br>
+              Achieved 50x scalability over SOTA models, training 20M molecules in just 15 min/epoch on a single GPU and 10GB CPU RAM—reducing R&D compute costs and experimental bottlenecks."
   category: "school"
 
-
-- place: "Harvard Medical School"
-  time: "June 2022 - May 2023"
-  title: "Visiting Research Scholar"
-  subtitle: "• Accepted as a visiting research fellow at Harvard DBMI through a highly competitive application process.<br>
-                • Currently developing a novel machine learning architecture to deal with missing and imbalanced modalities. 
-"
+- place: "Predictive Oncology"
+  time: "May 2024 - August 2024"
+  title: "Computational Biology Intern"
+  subtitle: "Built an ML pipeline for high-dimensional Cell Painting data, accelerating biomarker discovery for precision medicine. <br>
+              Enabled patient-specific drug response predictions, revealing individual variations within the same cancer subtype, driving personalized oncology advancements."
   category: "work"
 
-- place: "Struct. Sys. Bio at Biodesign Institute at ASU"
-  time: "Feb 2020 - May 2023"
-  title: "Research Associate"
-  subtitle: " Worked as a Research Associate in the Singharoy Lab. Lead research for my honors thesis to utilize deep ML methods with statistical mechanical methodologies. <br>  <br> 
-                • Lead and wrote a project on discovering free energy pathways with reinforcement learning <br>
-                • Developed a molecular differentiable simulator for Jax based on TorchMD <br>
-                • Helped develop novel conditional generative models for deriving free energy pathways <br>
-                • Implemented and tested several physics-informed models.<br>
-"
+- place: "Dinu Lab at Mayo Clinic"
+  time: "January 2020 - Present"
+  title: "Student Research Assistant"
+  subtitle: "Developed an AI-driven multi-omics framework for diagnosing developmental dyslexia, integrating clinical, genomic, and metabolic data, achieving 86% accuracy (AUC = 0.83)."
   category: "school"
 
-
-- place: "Carnegie Mellon University"
-  time: "June 2021 - August 2021"
-  title: "Visiting Research Scholar"
-  subtitle: "Accepted as a visiting research fellow in CMU Statistics through a highly competitive summer research program. <br>
-                • Created and a novel methodology for using stochastic simulators for soccer game predictions. Our method had comparable results to models trained directly on scores.
-"
+- place: "Independent Research"
+  time: "August 2017 - December 2020"
+  title: "Computational Drug Discovery Researcher"
+  subtitle: "Developed a high-precision ML model to identify protein hotspots, discovering small molecules targeting the EphB2-EphrinB2 complex (gastrointestinal cancers). <br>
+              Published first-author research, achieving AUROC 0.842, ranking among top-performing PPI-based models. <br>
+              Identified nadolol as a potential drug repurposing candidate for gastrointestinal cancer."
   category: "work"
 
-
-
-- place: "Pichel Lab Biodesign Inst."
-  time: "May 2020 - May 2021"
-  title: "Assistant Researcher under Ferran Garcia Pichel at Biodesign Institute"
-  subtitle: "Developed a Python Plugin for Qiime2 for the relationship between ribosomal gene copy number and size."
+- place: "Keats Lab at TGen"
+  time: "June 2019 - August 2019"
+  title: "Helios Scholar Intern"
+  subtitle: "Developed an algorithm that could differentiate optical and PCR duplicates on Illumina Next-Generation Sequencing (NGS) machines, improving speed 4.5x over the Broad Institute’s state-of-the-art method."
   category: "work"
-
-- place: "Cao Lab Biodesign Inst."
-  time: "August 2019 – May 2021"
-  title: "Assistant Researcher"
-  subtitle: " • Conducted data engineering and analysis on genomes assembled from a metagenome in order to study the strain level variance within microbiome communities. <br>
-              •  Implemented a web system that highlighted which genes present in a pathway for particular cyanobacteria species using PFAM’s Hidden Markov Model package, JavaScript, SQL databases, shell and Python.
-"
-  category: "school"
-
-
-- place: "Western Tool & Supply"
-  time: "June 2020 - July 2020"
-  title: "Software Engineer, Intern"
-  subtitle: "•	Implemented and trained an LSTM Recurrent Neural Network to predict customer purchase likelihoods. 
-              •	Integrating and using Bluetooth LE between microcontrollers and Google Chrome into their IOT system.
-"
-  category: "work"
-
-- place: "TGEN"
-  time: "May 2020 - August 2020"
-  title: "Virtual Helios Scholar"
-  subtitle: "Due to covid, the Helios Scholars Program was moved to a virtual format."
-  category: "work"
-
-- place: "Arizona State University"
-  time: "August 2019 - May 2023"
-  title: "B.Sc. Honors Student"
-  subtitle: "Double Major in Mathematics (4.0) and Computer Science (4.0)"
-  category: "School"
