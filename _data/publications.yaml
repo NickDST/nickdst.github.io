@@ -1,23 +1,18 @@
 papers:
-
-  - title: "Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics"
-    authors: "<b>Nicholas Ho</b>, John Kevin Cava, John Vant, Ankita Shukla, Jacob Miratsky, Pavan Turaga, Ross Maciejewski, Abhishek Singharoy."
-    venue: "Machine Learning In Structural Biology (MLSB) Workshop at the 36th Conference on Neural Information Processing Systems"
-    paper_pdf: "https://www.biorxiv.org/content/10.1101/2022.10.04.510845v1"
+  - title: "Developing a Machine Learning Model to Identify Protein-Protein Interaction Hotspots to Facilitate Drug Discovery"
+    authors: "<b>Rohit Nandakumar</b>, Valentin Dinu"
+    venue: "PeerJ, Volume 8, e10381, 2020"
+    paper_pdf: "https://peerj.com/articles/10381/"
     selected: y
 
-  - title: "Towards Conditional Generation of Minimal Action Potential Pathways for Molecular Dynamics"
-    authors: "John Kevin Cava, John Vant, <b>Nicholas Ho</b>, Ankita Shukla, Pavan Turaga, Ross Maciejewski, Abhishek Singharoy"
-    venue: "ELLIS ML4Molecules Workshop, 2021"
-    paper_pdf: "https://arxiv.org/pdf/2111.14053.pdf"
-    code: "https://github.com/johncava/Molecular_Dyanmics_cGAN"
+  - title: "Joint Exome and Metabolome Analysis in Individuals with Dyslexia: Evidence for Associated Dysregulations of Olfactory Perception and Autoimmune Functions"
+    authors: "<b>Rohit Nandakumar</b>, X Shi, H Gu, Y Kim, WH Raskind, B Peter, V Dinu"
+    venue: "bioRxiv, 2024.06.27.600448"
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2024.06.27.600448v1.abstract"
     selected: y
 
-  - title: "CyanoPATH: a knowledgebase of genome-scale functional repertoire for toxic cyanobacterial blooms"
-    authors: "Wei Du, Gaoyang Li, <b>Nicholas Ho</b>, Landon Jenkins, Drew Hockaday, Jiankang Tan, Huansheng Cao"
-    venue: "Briefings in Bioinformatics"
-    paper_pdf: "https://academic.oup.com/bib/article/22/4/bbaa375/6035272"
-    # code: "https://github.com/msaveski/toxic_conversation_structure"
-    # data: "https://doi.org/10.7910/DVN/TRWPVB"
-    # video: "https://www.youtube.com/watch?v=JLkUgxH92pE"
+  - title: "A Data-Fusion Approach to Identifying Developmental Dyslexia from Multi-Omics Datasets"
+    authors: "J Carrion, <b>Rohit Nandakumar</b>, X Shi, H Gu, Y Kim, WH Raskind, B Peter, ..."
+    venue: "PMC, 2023"
+    paper_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10002702/"
     selected: y
