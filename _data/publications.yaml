@@ -1,5 +1,17 @@
 papers:
 
+  - title: "Scaling Dense Representations for Single Cell with Transcriptome-Scale Context"
+    authors: "<b>Nicholas Ho</b>, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian Li, Yonghao Zhuang, Hongyi Wang, Xingyi Cheng, Le Song, Eric P. Xing."
+    venue: "In NeurIPS Workshop on AI for New Drug Modalities, 2024."
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1"
+    selected: y
+
+  - title: "Accurate and General DNA Representations Emerge from Genome Foundation Models at Scale"
+    authors: "Caleb N. Ellington, Ning Sun, <b>Nicholas Ho</b>, Tianhua Tao, Sazan Mahbub, Dian Li, Yonghao Zhuang, Hongyi Wang, Le Song, Eric P. Xing."
+    venue: "In NeurIPS Workshop on AI for New Drug Modalities, 2024."
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1"
+    selected: y
+
   - title: "Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics"
     authors: "<b>Nicholas Ho</b>, John Kevin Cava, John Vant, Ankita Shukla, Jacob Miratsky, Pavan Turaga, Ross Maciejewski, Abhishek Singharoy."
     venue: "Machine Learning In Structural Biology (MLSB) Workshop at the 36th Conference on Neural Information Processing Systems"
@@ -11,7 +23,7 @@ papers:
     venue: "ELLIS ML4Molecules Workshop, 2021"
     paper_pdf: "https://arxiv.org/pdf/2111.14053.pdf"
     code: "https://github.com/johncava/Molecular_Dyanmics_cGAN"
-    selected: y
+    selected: n
 
   - title: "CyanoPATH: a knowledgebase of genome-scale functional repertoire for toxic cyanobacterial blooms"
     authors: "Wei Du, Gaoyang Li, <b>Nicholas Ho</b>, Landon Jenkins, Drew Hockaday, Jiankang Tan, Huansheng Cao"
@@ -20,4 +32,4 @@ papers:
     # code: "https://github.com/msaveski/toxic_conversation_structure"
     # data: "https://doi.org/10.7910/DVN/TRWPVB"
     # video: "https://www.youtube.com/watch?v=JLkUgxH92pE"
-    selected: y
+    selected: n

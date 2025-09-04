@@ -1,4 +1,18 @@
 projects:
+  - title: "Scaling Dense Representations for Single Cell with Transcriptome-Scale Context"
+    subtitle: "In NeurIPS Workshop on AI for New Drug Modalities, 2024."
+    thumbnail: "assets/pics/aidocell.png"
+    url: "https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1"
+    selected: y
+
+
+  - title: "Accurate and General DNA Representations Emerge from Genome Foundation Models at Scale"
+    subtitle: "In NeurIPS Workshop on AI for New Drug Modalities, 2024."
+    thumbnail: "assets/pics/aidodna.png"
+    url: "https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1"
+    selected: y
+
+
   - title: "Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics"
     subtitle: "A paper accepted to NeurIPS Workshop Machine Learning for Structural Biology 2022, First Author"
     thumbnail: "assets/pics/smdrl.png"
@@ -9,31 +23,31 @@ projects:
     subtitle: "A paper accepted to ELLIS ML4Molecules Workshop 2021."
     thumbnail: "assets/pics/cgans.png"
     url: "https://arxiv.org/abs/2111.14053"
-    selected: y
+    selected: n
 
   - title: "Particle System Dynamics for Compromised Social Networks"
     subtitle: "This is the code and additional results for my APM541 final project on Particle System Dynamics for Compromised Social Networks."
     thumbnail: "assets/pics/apm541.png"
     url: "https://github.com/NickDST/Stochastic-Processes-APM541-Project"
-    selected: y
+    selected: n
 
   - title: "An Interpretable Method of Learning Stochastic Game Dynamics from CMSAC"
     subtitle: "Developed a new physics-inspired framework for analyzing soccer ball dynamics by modeling underlying potential landscapes."
     thumbnail: "assets/pics/cmsac.png"
     url: "https://twitter.com/eigenNick/status/1457074500994945024"
-    selected: y
+    selected: n
 
   - title: "CyanoPATH - a knowledgebase of genome-scale functional repertoire for toxic cyanobacterial blooms"
     subtitle: "CyanoPATH is a database that curates and analyzes the common genomic functional repertoire for cyanobacteria harmful algal blooms (CyanoHABs) in eutrophic waters."
     thumbnail: "assets/pics/cyanopath.png"
     url: "https://academic.oup.com/bib/article-abstract/22/4/bbaa375/6035272?redirectedFrom=fulltext"
-    selected: y
+    selected: n
 
   - title: "Bayesian Information Criterion from Scratch"
     subtitle: "The Bayesian Information Criterion implemented from scratch in python to predict change points from noisy data."
     thumbnail: "assets/pics/bic.png"
     url: "https://github.com/NickDST/BIC-Step-Prediction"
-    selected: y
+    selected: n
 
   - title: "HonorCode Tutoring Website"
     subtitle: "A System that organizes service and provides tutoring for members. Link for the website is tutors.concordiashanghai.org."
