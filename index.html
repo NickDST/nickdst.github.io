@@ -6,66 +6,40 @@ title: Home
 <div class="docs-section" id="bio">
 
   <p>
-    Hello! <strong>My name is Nicholas Ho and I am a third year 
-    Computational Biology PhD student in Carnegie Mellon University School of Computer Science. 
-    I am incredibly grateful to be advised by 
-    <a href="https://www.cs.cmu.edu/~jianma/">Professor Jian Ma</a> and 
-    <a href="https://www.cs.cmu.edu/~epxing/">Professor Eric Xing</a>.</strong> 
-    <!-- In the past, I lead the pretraining and evaluation for 
-    <a href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> and 
-    <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a> at 
-    <a href="https://genbio.ai/"> GenBio.AI</a>.  -->
-  <!-- Prior to that, I worked closely with <a href="https://dbmi.hms.harvard.edu/people/marinka-zitnik"> Professor Marinka Zitnik </a> at Harvard Department of Biomedical informatics as a research intern,  -->
-  <!-- and <a href="https://scholar.google.com/citations?user=UnRHyFYAAAAJ&hl=en"> Professor Abhishek Singharoy</a> for Reinforcement-Learning guided MD simulations. -->
-    <br>
-    <br>
-    I care a lot about building models that can both accurately capture biology and uncover new insights, while genuinely scaling with data and model size.
-    <!-- I care a lot about developing models that can both accurately reflect and provide new insights into biology, and genuinely scale with data & model size.  -->
-    <!-- I care a lot about developing models in biology with performance that can genuinely scale with data and model size. --> 
-    <strong> In other words, I aim to develop truly useful biological foundation models. </strong> 
-    In the past, I led the pretraining and evaluation for 
-    <a href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> (600M Parameter whole transcriptome model for cell) and 
-    <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a> (7 Billion Parameter model for DNA) at 
-    GenBio.AI.
-    While I think there is still a very, very long way to go, I am optimistic about the future for better models in biology.
-
+    Hello! <strong>My name is Nicholas Ho and I am a third year
+    Computational Biology PhD student in Carnegie Mellon University School of Computer Science.
+    I am incredibly grateful to be advised by
+    <a href="https://www.cs.cmu.edu/~jianma/">Professor Jian Ma</a> and
+    <a href="https://www.cs.cmu.edu/~epxing/">Professor Eric Xing</a>.</strong>
+    I develop self-supervised models that learn from large biological datasets to uncover new insights across different scales of biology.
   </p>
 
-  🧬 <strong>As a computational biologist, I work on:</strong>
-  <ul style="margin:0; padding-left:1.2em; list-style:none;">
-    <li>(1) 🔬 <strong>Single-Cell perturbation modeling</strong>, specifically for unseen chemical and genetic perturbations. </li>
-    <li>(2) 🧪 <strong>Cis-Regulatory sequence to function modeling</strong>, more recently, I've pretrained 
-      <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">DNA language models</a> to see how evolution can be useful for this. 
+  <h5>Self-supervised learning across biological scales</h5>
+  <ul style="margin:0; padding-left:1.2em; list-style:none; line-height:1.8;">
+    <li><span style="background-color:#e8f4e8; padding:2px 8px; border-radius:4px; font-weight:bold;">DNA</span>
+      — Pretrained
+      <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a>, a 7B parameter genome foundation model trained with 3D parallelism (Megatron-LM), to learn evolutionary representations useful for cis-regulatory sequence-to-function prediction.
     </li>
-  </ul>
-  <br>
-  
-  🤖 <strong>As a machine learning scientist, I work on:</strong>
-  <ul style="margin:0; padding-left:1.2em; list-style:none;">
-    <li>(1) 💻 <strong>Training large-scale models</strong>, at least 
-      <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">Billions of parameters requiring 3D parallelism</a>. 
-      I have a great love-hate relationship with NVIDIA's Megatron-LM.
+    <li><span style="background-color:#e8e8f4; padding:2px 8px; border-radius:4px; font-weight:bold;">Single Cell</span>
+      — Built
+      <a href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a>, a 600M parameter whole-transcriptome model using masked self-supervised learning, and studied
+      <a href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">how tokenizer design affects transfer</a> in single-cell foundation models.
     </li>
-    <li>(2) 🌊 <strong>Diffusion & Flow matching models for generative modeling</strong>. So far I've used these tools most for single cells. 
-      Coming from a <a href="https://www.biorxiv.org/content/10.1101/2022.10.04.510845v1">biophysics background</a>, this stuff is so cool. 
+    <li><span style="background-color:#f4e8e8; padding:2px 8px; border-radius:4px; font-weight:bold;">Tissue</span>
+      — Developed
+      <a href="https://www.biorxiv.org/content/10.1101/2025.07.04.663102v1">AIDO.Tissue</a>, a spatial transcriptomics foundation model that learns tissue-level context through spatial cell-guided pretraining.
     </li>
-    <li>(3) 📚 <strong>Representation learning</strong>, either through self-supervision or multi-task learning. 
-      <a href="https://arxiv.org/pdf/2503.02781?">In the past, I worked on it for modeling drug representations</a>. 
-      Also I am a Big JEPA fan.
+    <li><span style="background-color:#f4f0e8; padding:2px 8px; border-radius:4px; font-weight:bold;">Perturbation Response</span>
+      — Performed a
+      <a href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1">comprehensive evaluation of perturbation response prediction</a>, training and benchmarking diffusion, flow matching, Schr&ouml;dinger bridge, and GNN-based models for unseen chemical and genetic perturbations.
     </li>
   </ul>
 
-  <br>
-  <strong>Quick Note on Foundation Models</strong>
-  <br>
-    Although I would say I work on "foundation models" (which I think is an immensely overloaded term), 
-    <strong> I believe that the task always informs the representation.</strong>  Although this sounds like it may contradict the point of foundation models (where a model may be useful for any task),
-    in biology - because the data is limited, it is important to design the right
-    pretraining objective that is best aligned with the important downstream tasks. <strong> By working on the right problems with the right inductive biases, then I believe we can achieve generalizable & scalable models. </strong>
+  <p>
+    I believe that <strong>the task always informs the representation</strong> — in biology, because data is limited,
+    it is critical to design pretraining objectives aligned with the downstream tasks that matter.
+    By working on the right problems with the right inductive biases, I believe we can build generalizable and scalable models.
   </p>
-  
-
-
 
   <p>
   Feel free to reach out to me! I'm always looking for interesting problems to talk about!

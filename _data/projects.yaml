@@ -1,4 +1,16 @@
 projects:
+  - title: "HEIMDALL: Disentangling Tokenizer Design for Robust Transfer in Single-Cell Foundation Models"
+    subtitle: "bioRxiv, 2025."
+    thumbnail: "assets/heimdall.png"
+    url: "https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3"
+    selected: y
+
+  - title: "Foundation Models Improve Perturbation Response Prediction"
+    subtitle: "bioRxiv, 2026."
+    thumbnail: "assets/pert.png"
+    url: "https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1"
+    selected: y
+
   - title: "Scaling Dense Representations for Single Cell with Transcriptome-Scale Context"
     subtitle: "In NeurIPS Workshop on AI for New Drug Modalities, 2024."
     thumbnail: "assets/pics/aidocell.png"
@@ -12,6 +24,11 @@ projects:
     url: "https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1"
     selected: y
 
+  - title: "AIDO.Tissue: Spatial Cell-Guided Pretraining for Scalable Spatial Transcriptomics Foundation Model"
+    subtitle: "bioRxiv, 2025."
+    thumbnail: "assets/aidotissue.png"
+    url: "https://www.biorxiv.org/content/10.1101/2025.07.04.663102v1"
+    selected: y
 
   - title: "Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics"
     subtitle: "A paper accepted to NeurIPS Workshop Machine Learning for Structural Biology 2022, First Author"

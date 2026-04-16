@@ -1,5 +1,23 @@
 papers:
 
+  - title: "HEIMDALL: Disentangling Tokenizer Design for Robust Transfer in Single-Cell Foundation Models"
+    authors: "Ellie Haber*, Shahul Alam*, <b>Nicholas Ho</b>*, Renming Liu, Evan Trop, Shaoheng Liang, Muyu Yang, Spencer Krieger, Jian Ma."
+    venue: "bioRxiv, 2025."
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3"
+    selected: y
+
+  - title: "AIDO.Tissue: Spatial Cell-Guided Pretraining for Scalable Spatial Transcriptomics Foundation Model"
+    authors: "Jing Gong*, Yixuan Wang*, <b>Nicholas Ho</b>, Xingyi Cheng, Le Song, Eric Xing."
+    venue: "bioRxiv, 2025."
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2025.07.04.663102v1"
+    selected: y
+
+  - title: "Foundation Models Improve Perturbation Response Prediction"
+    authors: "Elijah Cole, Geert-Jan Huizing, Sohan Addagudi, <b>Nicholas Ho</b>, Euxhen Hasanaj, Merel Kuijs, Toby Johnstone, Maria Carilli, Alec Davi, Caleb Ellington, Christoph Feinauer, Pan Li, Romain Menegaux, Shahin Mohammadi, Yanjun Shao, Josiah Zhang, Emma Lundberg, Le Song, Ziv Bar-Joseph, Eric P. Xing."
+    venue: "bioRxiv, 2026."
+    paper_pdf: "https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1"
+    selected: y
+
   - title: "Scaling Dense Representations for Single Cell with Transcriptome-Scale Context"
     authors: "<b>Nicholas Ho</b>, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian Li, Yonghao Zhuang, Hongyi Wang, Xingyi Cheng, Le Song, Eric P. Xing."
     venue: "In NeurIPS Workshop on AI for New Drug Modalities, 2024."
