@@ -29,7 +29,7 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
           <a href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> to study how <strong>tokenizer design</strong> affects transfer learning in single-cell foundation models.
         </li>
         <li><span class="research-tag tag-dna">DNA</span> — Pretrained
-          <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a>, a <strong>7B-parameter</strong> genome foundation model, using <strong>3D parallelism (Megatron-LM)</strong> to learn evolutionary representations for cis-regulatory sequence-to-function prediction.
+          <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a>, a <strong>7B-parameter</strong> genome foundation model trained to learn evolutionary representations for cis-regulatory sequence-to-function prediction.
         </li>
         <li><span class="research-tag tag-tissue">Spatial Transcriptomics</span> — Co-authored
           <a href="https://www.biorxiv.org/content/10.1101/2025.07.04.663102v1">AIDO.Tissue</a>, a spatial transcriptomics foundation model that learns tissue-level context through <strong>spatial cell-guided pretraining</strong>.

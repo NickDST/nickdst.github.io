@@ -102,6 +102,6 @@ html[data-theme="dark"] {
 
 @media (max-width: 600px) {
   .home-intro { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
-  .home-portrait { width: 200px; justify-self: center; }
+  .home-portrait { width: 200px; justify-self: center; grid-row: 1; }
   .research-statement { font-size: 1.1rem; }
 }
