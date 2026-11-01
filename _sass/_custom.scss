@@ -1,0 +1,107 @@
+// Warm orange accents with a lighter shade against dark backgrounds.
+:root {
+  --global-theme-color: #d97732;
+  --global-hover-color: #b85c18;
+  --global-code-bg-color: #fff3e8;
+  --global-highlight-color: #d97732;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #ffb570;
+  --global-hover-color: #ffc68f;
+  --global-hover-text-color: #1c1c1d;
+  --global-code-bg-color: #38291f;
+  --global-highlight-color: #ffb570;
+}
+
+::selection {
+  background: #ffcf9f;
+  color: #3b230f;
+}
+
+.home-section {
+  clear: both;
+  margin-top: 3rem;
+}
+
+.social .contact-icons {
+  font-size: 2rem;
+
+  a img,
+  a svg,
+  a svg image {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+.publications ol.bibliography li img.preview {
+  width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+}
+
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.research-statement {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 1.1rem;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.1rem;
+  line-height: 1.45;
+
+  strong { font-weight: 600; }
+}
+
+.research-summary {
+  color: var(--global-text-color);
+  line-height: 1.6;
+}
+
+.home-portrait {
+  figure { margin-bottom: 0.65rem; }
+  img { width: 100%; height: auto; }
+
+  .portrait-contact {
+    font-size: 0.9rem;
+    text-align: center;
+
+    a { color: var(--global-text-color-light); }
+  }
+}
+
+.research-experience {
+  margin: 1.25rem 0 0;
+  padding-left: 1.15rem;
+  line-height: 1.65;
+
+  li { margin-bottom: 0.85rem; padding-left: 0.15rem; }
+  .research-tag { font-size: 0.9rem; font-weight: 600; }
+}
+
+.research-tag {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 1px 7px;
+  border-radius: 4px;
+  color: #252525;
+
+  &.tag-cell { background: #e8e8f4; }
+  &.tag-dna { background: #e8f4e8; }
+  &.tag-perturbation { background: #f4f0e8; }
+  &.tag-tissue { background: #f4e8e8; }
+}
+
+.research-contact { margin-top: 1.25rem; }
+
+@media (max-width: 600px) {
+  .home-intro { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .home-portrait { width: 200px; justify-self: center; }
+  .research-statement { font-size: 1.1rem; }
+}

@@ -1,0 +1,74 @@
+---
+cv:
+  name: Nicholas Ho
+  label: Computational Biology PhD student
+  email: nzh@cs.cmu.edu
+  location: Carnegie Mellon University
+  sections:
+    Education:
+    - institution: Carnegie Mellon University
+      start_date: August 2023
+      end_date: Present
+      studyType: PhD Student
+      highlights:
+      - Advised by Prof. Jian Ma and Prof. Eric Xing.
+    - institution: Arizona State University
+      start_date: August 2019
+      end_date: May 2023
+      studyType: B.Sc. Honors Student
+      highlights:
+      - Double Major in Mathematics (4.0) and Computer Science (4.0)
+    Experience:
+    - company: Harvard Medical School
+      position: Visiting Research Scholar
+      summary: "• Accepted as a visiting research fellow at Harvard DBMI through a
+        highly competitive application process.<br> • Currently developing a novel
+        machine learning architecture to deal with missing and imbalanced modalities."
+      start_date: June 2022
+      end_date: May 2023
+    - company: Struct. Sys. Bio at Biodesign Institute at ASU
+      position: Research Associate
+      summary: Worked as a Research Associate in the Singharoy Lab. Lead research
+        for my honors thesis to utilize deep ML methods with statistical mechanical
+        methodologies. <br>  <br> • Lead and wrote a project on discovering free energy
+        pathways with reinforcement learning <br> • Developed a molecular differentiable
+        simulator for Jax based on TorchMD <br> • Helped develop novel conditional
+        generative models for deriving free energy pathways <br> • Implemented and
+        tested several physics-informed models.<br>
+      start_date: Feb 2020
+      end_date: May 2023
+    - company: Carnegie Mellon University
+      position: Visiting Research Scholar
+      summary: Accepted as a visiting research fellow in CMU Statistics through a
+        highly competitive summer research program. <br> • Created and a novel methodology
+        for using stochastic simulators for soccer game predictions. Our method had
+        comparable results to models trained directly on scores.
+      start_date: June 2021
+      end_date: August 2021
+    - company: Pichel Lab Biodesign Inst.
+      position: Assistant Researcher under Ferran Garcia Pichel at Biodesign Institute
+      summary: Developed a Python Plugin for Qiime2 for the relationship between ribosomal
+        gene copy number and size.
+      start_date: May 2020
+      end_date: May 2021
+    - company: Cao Lab Biodesign Inst.
+      position: Assistant Researcher
+      summary: "• Conducted data engineering and analysis on genomes assembled from
+        a metagenome in order to study the strain level variance within microbiome
+        communities. <br> •  Implemented a web system that highlighted which genes
+        present in a pathway for particular cyanobacteria species using PFAM’s Hidden
+        Markov Model package, JavaScript, SQL databases, shell and Python."
+      start_date: August 2019
+      end_date: May 2021
+    - company: Western Tool & Supply
+      position: Software Engineer, Intern
+      summary: "•\tImplemented and trained an LSTM Recurrent Neural Network to predict
+        customer purchase likelihoods. •\tIntegrating and using Bluetooth LE between
+        microcontrollers and Google Chrome into their IOT system."
+      start_date: June 2020
+      end_date: July 2020
+    - company: TGEN
+      position: Virtual Helios Scholar
+      summary: Due to covid, the Helios Scholars Program was moved to a virtual format.
+      start_date: May 2020
+      end_date: August 2020

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Illustrative exponential decay</title>
+<style>
+:root { color-scheme:light dark; font-family:system-ui,sans-serif; }
+body { margin:0; padding:18px; color:#242424; background:#f5f6f7; }
+h2 { margin:0 0 12px; font-size:16px; }
+label { display:flex; gap:12px; align-items:center; font-size:14px; }
+input { flex:1; min-width:70px; accent-color:#6453bd; }
+svg { width:100%; height:235px; display:block; }
+.axis { stroke:currentColor; opacity:.35; }
+text { fill:currentColor; font-size:12px; }
+#curve { fill:none; stroke:#8066d9; stroke-width:3; }
+@media(prefers-color-scheme:dark) { body { color:#e5e5e5; background:#232326; } }
+</style>
+</head>
+<body>
+<h2>Illustrative exponential decay</h2>
+<label for="rate">Rate λ <input id="rate" type="range" min="0" max="2" step="0.05" value="0.5"><output id="value" for="rate">0.50</output></label>
+<svg viewBox="0 0 600 250" role="img" aria-labelledby="chart-title chart-description">
+<title id="chart-title">Exponential decay</title>
+<desc id="chart-description">A synthetic curve of exp(-λt), from t=0 to t=10. Adjust the slider to change λ.</desc>
+<path class="axis" fill="none" d="M45 15V215H580" />
+<text x="22" y="23">1</text><text x="22" y="218">0</text>
+<text x="43" y="235">0</text><text x="560" y="235">10</text><text x="300" y="247">t</text>
+<path id="curve" />
+</svg>
+<script>
+const rate=document.getElementById('rate');
+function draw(){
+ const lambda=Number(rate.value);
+ document.getElementById('value').value=lambda.toFixed(2);
+ const points=Array.from({length:201},(_,i)=>{
+  const t=i/20;
+  return `${i?'L':'M'}${45+t*53.5},${215-200*Math.exp(-lambda*t)}`;
+ });
+ document.getElementById('curve').setAttribute('d',points.join(' '));
+}
+rate.addEventListener('input',draw);draw();
+</script>
+</body>
+</html>
