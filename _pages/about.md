@@ -22,7 +22,7 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
       <p class="research-statement"><strong>I develop biological foundation models and study how their representations uncover new insights and improve counterfactual predictions.</strong></p>
       <ul class="research-experience">
         <li><span class="research-tag tag-perturbation">Cell Perturbation</span> — Performed a
-          <a href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">comprehensive evaluation of perturbation response prediction</a>, training and benchmarking diffusion, flow matching, Schr&ouml;dinger bridge, and GNN models for <strong>unseen chemical and genetic perturbations</strong>.
+          <a href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">comprehensive evaluation of perturbation response prediction</a>, training and benchmarking <strong>diffusion, flow matching, Schr&ouml;dinger bridge, and Graph Neural Network models</strong> for unseen chemical and genetic perturbations.
         </li>
         <li><span class="research-tag tag-cell">Single Cell</span> — Led
           <a href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a>, a <strong>600M-parameter</strong> whole-transcriptome model, and designed
