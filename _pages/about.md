@@ -15,24 +15,32 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
   <div class="home-intro">
     <div class="home-intro-copy">
       <p>Hello! I'm Nicholas, a Computational Biology PhD student at Carnegie Mellon University, advised by
-        <a href="https://www.cs.cmu.edu/~jianma/">Professor Jian Ma</a> and
-        <a href="https://www.cs.cmu.edu/~epxing/">Professor Eric Xing</a>.
+        <a class="advisor-link" href="https://www.cs.cmu.edu/~jianma/">Professor Jian Ma</a> and
+        <a class="advisor-link" href="https://www.cs.cmu.edu/~epxing/">Professor Eric Xing</a>.
+        My research is supported by the NSF Graduate Research Fellowship. I previously interned at <a href="https://genbio.ai/">GenBio.AI</a>.
       </p>
-      <p>My research is supported by the <strong>NSF Graduate Research Fellowship (GRFP)</strong>. I previously interned at <a href="https://genbio.ai/">GenBio.AI</a>.</p>
       <p class="research-statement"><strong>I develop biological foundation models and study how their representations uncover new insights and improve counterfactual predictions.</strong></p>
-      <ul class="research-experience">
-        <li><span class="research-tag tag-perturbation">Cell Perturbation</span> — Performed a
-          <a href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">comprehensive evaluation of perturbation response prediction</a>, training and benchmarking <strong>diffusion, flow matching, Schr&ouml;dinger bridge, and Graph Neural Network models</strong> for unseen chemical and genetic perturbations.
+      <p>Here are some highlights:</p>
+      <ul class="research-projects">
+        <li>
+          <a class="research-project-name" href="https://doi.org/10.64898/2026.10.28.762655">EMBER</a> —
+          <span>Developed a gene-centric foundation model whose <strong>contextualized gene representations</strong> support multigene perturbation prediction.</span>
         </li>
-        <li><span class="research-tag tag-cell">Single Cell</span> — Led
-          <a href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a>, a <strong>600M-parameter</strong> whole-transcriptome model, and designed
-          <a href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> to study how <strong>tokenizer design</strong> affects transfer learning in single-cell foundation models.
+        <li>
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">Perturbation Benchmarking</a> —
+          <span>Comprehensively evaluated perturbation response prediction, training and benchmarking <strong>diffusion, flow matching, Schr&ouml;dinger bridge, and Graph Neural Network models</strong>.</span>
         </li>
-        <li><span class="research-tag tag-dna">DNA</span> — Pretrained
-          <a href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a>, a <strong>7B-parameter</strong> genome foundation model trained to learn evolutionary representations for cis-regulatory sequence-to-function prediction.
+        <li>
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> —
+          <span>Led development of a <strong>600M-parameter single-cell foundation model</strong> with transcriptome-wide pretraining with minimal priors.</span>
         </li>
-        <li><span class="research-tag tag-tissue">Spatial Transcriptomics</span> — Co-authored
-          <a href="https://www.biorxiv.org/content/10.1101/2025.07.04.663102v1">AIDO.Tissue</a>, a spatial transcriptomics foundation model that learns tissue-level context through <strong>spatial cell-guided pretraining</strong>.
+        <li>
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> —
+          <span>Systematically studied how <strong>tokenizer design affects transfer learning</strong> in single-cell pretrained models.</span>
+        </li>
+        <li>
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a> —
+          <span>Pretrained a <strong>7B-parameter genome foundation model</strong> for variant effect prediction and sequence generation.</span>
         </li>
       </ul>
     </div>

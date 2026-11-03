@@ -24,6 +24,21 @@ html[data-theme="dark"] {
   margin-top: 3rem;
 }
 
+.home-bio a,
+.home-section h2 a {
+  text-decoration: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+
+  &:hover,
+  &:focus-visible { text-decoration: underline; }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+}
+
 .social .contact-icons {
   font-size: 2rem;
 
@@ -49,6 +64,11 @@ html[data-theme="dark"] {
   margin-top: 1.5rem;
 }
 
+.home-intro-copy .advisor-link {
+  color: var(--global-theme-color);
+  font-weight: 700;
+}
+
 .research-statement {
   border-left: 3px solid var(--global-theme-color);
   padding-left: 1.1rem;
@@ -59,11 +79,6 @@ html[data-theme="dark"] {
   strong { font-weight: 600; }
 }
 
-.research-summary {
-  color: var(--global-text-color);
-  line-height: 1.6;
-}
-
 .home-portrait {
   figure { margin-bottom: 0.65rem; }
   img { width: 100%; height: auto; }
@@ -72,30 +87,39 @@ html[data-theme="dark"] {
     font-size: 0.9rem;
     text-align: center;
 
-    a { color: var(--global-text-color-light); }
+    a { color: var(--global-text-color); }
   }
 }
 
-.research-experience {
-  margin: 1.25rem 0 0;
-  padding-left: 1.15rem;
-  line-height: 1.65;
+.research-projects {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.25rem;
 
-  li { margin-bottom: 0.85rem; padding-left: 0.15rem; }
-  .research-tag { font-size: 0.9rem; font-weight: 600; }
+  li {
+    margin-bottom: 0.85rem;
+    padding-left: 0.15rem;
+    line-height: 1.6;
+  }
+
+  strong { font-weight: 600; }
+  .research-project-name {
+    color: var(--global-theme-color);
+    font-weight: 400;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-hover-color);
+      text-decoration: underline;
+    }
+  }
 }
 
-.research-tag {
-  font-size: 0.8rem;
-  line-height: 1.5;
-  padding: 1px 7px;
-  border-radius: 4px;
-  color: #252525;
+.research-breadth {
+  margin: 1rem 0 0;
+  line-height: 1.6;
 
-  &.tag-cell { background: #e8e8f4; }
-  &.tag-dna { background: #e8f4e8; }
-  &.tag-perturbation { background: #f4f0e8; }
-  &.tag-tissue { background: #f4e8e8; }
+  strong { font-weight: 600; }
 }
 
 .research-contact { margin-top: 1.25rem; }
