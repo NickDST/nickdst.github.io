@@ -115,6 +115,25 @@ html[data-theme="dark"] {
   }
 }
 
+.research-domain {
+  display: inline-block;
+  margin-left: 0.3rem;
+  padding: 0.08rem 0.45rem;
+  border-radius: 0.25rem;
+  background: #f1efeb;
+  color: #55504a;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.4;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+html[data-theme="dark"] .research-domain {
+  background: #34312e;
+  color: #ded8d1;
+}
+
 .research-breadth {
   margin: 1rem 0 0;
   line-height: 1.6;
