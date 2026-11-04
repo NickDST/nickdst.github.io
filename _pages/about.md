@@ -23,23 +23,23 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
       <p>Here are some highlights:</p>
       <ul class="research-projects">
         <li>
-          <a class="research-project-name" href="https://doi.org/10.64898/2026.10.28.762655">EMBER</a> <span class="research-domain">Cell</span> —
+          <a class="research-project-name" href="https://doi.org/10.64898/2026.10.28.762655">EMBER</a> —
           <span>Developed a gene-centric foundation model whose <strong>contextualized gene representations</strong> support multigene perturbation prediction.</span>
         </li>
         <li>
-          <a class="research-project-name" href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">Perturbation Benchmarking</a> <span class="research-domain">Cell</span> —
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">Perturbation Benchmarking</a> —
           <span>Evaluated perturbation response prediction, training <strong>diffusion, flow matching, Schr&ouml;dinger bridge, and graph neural network models</strong>.</span>
         </li>
         <li>
-          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> <span class="research-domain">Cell</span> —
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> —
           <span>Led development of a <strong>600M-parameter single-cell foundation model</strong> with transcriptome-wide pretraining with minimal priors.</span>
         </li>
         <li>
-          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> <span class="research-domain">Cell</span> —
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> —
           <span>Systematically studied how <strong>tokenizer design affects transfer learning</strong> in single-cell pretrained models.</span>
         </li>
         <li>
-          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a> <span class="research-domain">DNA</span> —
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a> —
           <span>Pretrained a <strong>7B-parameter genome foundation model</strong> for variant effect prediction and sequence generation.</span>
         </li>
       </ul>
