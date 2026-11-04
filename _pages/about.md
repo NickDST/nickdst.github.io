@@ -24,23 +24,24 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
       <ul class="research-projects">
         <li>
           <a class="research-project-name" href="https://doi.org/10.64898/2026.10.28.762655">EMBER</a> —
-          <span>Developed a gene-centric foundation model whose <strong>contextualized gene representations</strong> support multigene perturbation prediction.</span>
+          <span>Gene-centric foundation model for <strong>contextualized gene representations</strong> that support multigene perturbation prediction.</span>
+          <a href="https://x.com/eigenNick/status/2117336472852553806">Video Explainer</a>
         </li>
         <li>
-          <a class="research-project-name" href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">Perturbation Benchmarking</a> —
-          <span>Evaluated perturbation response prediction, training <strong>diffusion, flow matching, Schr&ouml;dinger bridge, and graph neural network models</strong>.</span>
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">Cell Perturbation Benchmarking</a> —
+          <span>Evaluated and trained diffusion, flow matching, Schr&ouml;dinger bridge, and graph neural network models.</span>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> —
-          <span>Led development of a <strong>600M-parameter single-cell foundation model</strong> with transcriptome-wide pretraining with minimal priors.</span>
-        </li>
-        <li>
-          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> —
-          <span>Systematically studied how <strong>tokenizer design affects transfer learning</strong> in single-cell pretrained models.</span>
+          <span>Led a team for <strong>600M-parameter single-cell foundation model</strong> for pretraining with minimal priors.</span>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a> —
-          <span>Pretrained a <strong>7B-parameter genome foundation model</strong> for variant effect prediction and sequence generation.</span>
+          <span>In charge of pretraining <strong>7B-parameter genome foundation model</strong> for variant effect prediction and sequence generation.</span>
+        </li>
+        <li>
+          <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> —
+          <span>Examined how <strong>tokenizer design affects transfer learning</strong> in single-cell pretrained models.</span>
         </li>
       </ul>
     </div>
@@ -50,7 +51,7 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
     </div>
   </div>
 
-  <p class="research-contact">Feel free to reach out—I'm always happy to discuss interesting problems.</p>
+  <p class="research-contact">I got some <a href="https://www.biorxiv.org/content/10.1101/2025.07.04.663102v1">spatial transcriptomics</a> and <a href="https://www.biorxiv.org/content/10.1101/2022.10.04.510845v1">biophysics</a> experience too. Feel free to reach out — I'm always happy to chat!</p>
   <p>In my spare time I enjoy <a href="https://www.youtube.com/shorts/61IQGUaxTgQ">yoyoing</a>.</p>
 </div>
 
@@ -63,6 +64,6 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
 </section>
 
 <section class="home-section" aria-labelledby="publications-heading">
-<h2 id="publications-heading"><a href="{{ '/publications/' | relative_url }}" style="color:inherit;">Publications</a></h2>
+<h2 id="publications-heading"><a href="{{ '/publications/' | relative_url }}" style="color:inherit;">Publications &amp; Preprints</a></h2>
 {% include selected_papers.liquid %}
 </section>
