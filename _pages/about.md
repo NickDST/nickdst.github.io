@@ -25,11 +25,11 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
         <li>
           <a class="research-project-name" href="https://doi.org/10.64898/2026.10.28.762655">EMBER</a> —
           <span>Gene-centric foundation model for <strong>contextualized gene representations</strong> that support multigene perturbation prediction.</span>
-          <a href="https://x.com/eigenNick/status/2117336472852553806">Video Explainer</a>
+          <a href="https://x.com/eigenNick/status/2117336472852553806">(Video Explainer)</a>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">Cell Perturbation Benchmarking</a> —
-          <span>Evaluated and trained diffusion, flow matching, Schr&ouml;dinger bridge, and graph neural network models.</span>
+          <span>Evaluated perturbation response prediction, training <strong>diffusion, flow-matching, and graph neural network models</strong>.</span>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> —
