@@ -24,7 +24,7 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
       <ul class="research-projects">
         <li>
           <a class="research-project-name" href="https://doi.org/10.64898/2026.10.28.762655">EMBER</a> —
-          <span>Gene-centric foundation model for <strong>contextualized gene representations</strong> that support multigene perturbation prediction. Bridging observational single-cell pretraining and perturbation prediction.</span>
+          <span>Gene-centric foundation model for <strong>contextualized gene representations</strong> that support multigene perturbation prediction.</span>
           <a href="https://x.com/eigenNick/status/2117336472852553806">(Video Explainer)</a>
         </li>
         <li>
