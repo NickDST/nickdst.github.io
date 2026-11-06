@@ -3,6 +3,7 @@ layout: "page"
 title: "yoyo"
 permalink: "/yoyo/"
 nav: true
+nav_url: "https://www.youtube.com/shorts/61IQGUaxTgQ"
 nav_order: 5
 description: "Outside of research, I like to yo-yo."
 ---
