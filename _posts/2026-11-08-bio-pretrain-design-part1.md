@@ -16,6 +16,16 @@ authors:
     affiliations:
       name: Carnegie Mellon University
       url: https://www.cmu.edu/
+  - name: Eric P. Xing
+    url: https://www.cs.cmu.edu/~epxing/
+    affiliations:
+      name: Carnegie Mellon University
+      url: https://www.cmu.edu/
+  - name: Jian Ma
+    url: https://www.cs.cmu.edu/~jianma/
+    affiliations:
+      name: Carnegie Mellon University
+      url: https://www.cmu.edu/
 toc:
   - name: What does it look like to pretrain on single cell data?
   - name: What are we actually learning with reconstruction?
@@ -99,7 +109,7 @@ Single-cell data is a tabular datatype that contains counts for usually 20K or m
 
 It is arguable that maybe training on the full 20K transcriptome may capture more information, and we did that before with [AIDO.Cell](https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1), but applying the attention mechanism over all 20K genes made the computational trade-offs quite large.
 
-Single cell appears relatively low rank, so just taking the 1024 expressed genes as input works quite well for capturing an estimate of cell state.
+Just taking the 1024 expressed genes as input has empirically worked quite well for capturing an estimate of cell state.
 {% enddetails %}
 
 We intentionally chose to focus on **pretraining objectives**, as we felt that was the biggest opportunity for scalable improvement.
