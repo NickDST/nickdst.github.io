@@ -190,7 +190,7 @@ We hypothesize that gene embeddings encoding molecular function is important for
 
 In short, we found that when trained with expression reconstruction, **contextualized gene representations** appear to organize in the latent space that is beneficial for downstream perturbation tasks. This pattern appears to scale with higher cell-type diversity in the pretraining corpus.
 
-In part 2, we will further examine the cell subgraph contrastive learning training objective, which drives context-specific molecular function, but also works synergistically with reconstruction for better gene representations.
+In part 2, we will further examine the **cell subgraph contrastive learning training objective**, which drives context-specific molecular function, but also works synergistically with reconstruction for better gene representations.
 
 ### Limitations
 
