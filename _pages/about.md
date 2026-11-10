@@ -20,6 +20,7 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
         My research is supported by the NSF Graduate Research Fellowship. I previously interned at <a href="https://genbio.ai/">GenBio.AI</a>.
       </p>
       <p class="research-statement"><strong>I develop biological foundation models and study how their representations uncover new insights and improve counterfactual predictions.</strong></p>
+      <a class="latest-work-banner" href="https://x.com/eigenNick/status/2117336472852553806">Check out my most recent work on contextualized gene representations for multigene perturbation prediction!</a>
       <p>Here are some highlights:</p>
       <ul class="research-projects">
         <li>
