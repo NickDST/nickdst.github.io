@@ -17,7 +17,7 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
       <p>Hello! I'm Nicholas, a Computational Biology PhD student at Carnegie Mellon University, advised by
         <a class="advisor-link" href="https://www.cs.cmu.edu/~jianma/">Professor Jian Ma</a> and
         <a class="advisor-link" href="https://www.cs.cmu.edu/~epxing/">Professor Eric Xing</a>.
-        My research is supported by the NSF Graduate Research Fellowship. I previously interned at <a href="https://genbio.ai/">GenBio.AI</a>.
+        My research is supported by the NSF Graduate Research Fellowship. I previously interned on the pretraining team in <a href="https://genbio.ai/">GenBio.AI</a>.
       </p>
       <p class="research-statement"><strong>I develop biological foundation models and study how their representations uncover new insights and improve counterfactual predictions.</strong></p>
       <a class="latest-work-banner" href="https://x.com/eigenNick/status/2117336472852553806">Check out my most recent work on contextualized gene representations for multigene perturbation prediction!</a>
