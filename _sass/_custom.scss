@@ -80,22 +80,42 @@ html[data-theme="dark"] {
 }
 
 .home-bio .latest-work-banner {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
   margin: 1.1rem 0 1.25rem;
-  padding: 0.7rem 0.9rem;
-  border: 1px solid #f0d4b9;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid #ffd1a6;
   border-radius: 4px;
   background: #fff5eb;
-  color: #9b4b13;
+  color: #904314;
   font-size: 1rem;
   line-height: 1.5;
+  cursor: pointer;
 
-  strong { font-weight: 600; }
+  > span:first-child { flex: 1 1 18rem; }
+
+  .latest-work-action {
+    flex: 0 0 auto;
+    padding: 0.45rem 0.75rem;
+    border-radius: 3px;
+    background: #ffe2c2;
+    border: 1px solid #ffc58e;
+    color: #59351c;
+    font-size: 0.9rem;
+    font-weight: 400;
+    white-space: nowrap;
+  }
 
   &:hover,
   &:focus-visible {
     background: #ffedda;
+    border-color: #ffc58e;
     color: #7c3b0e;
+    text-decoration: none;
+
+    .latest-work-action { background: #ffd4a6; }
   }
 }
 
