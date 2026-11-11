@@ -28,24 +28,24 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
       <ul class="research-projects">
         <li>
           <a class="research-project-name" href="https://doi.org/10.64898/2026.10.28.762655">EMBER</a> —
-          <span>Gene-centric foundation model for <strong>contextualized gene representations</strong> that support multigene perturbation prediction.</span>
+          <span>Gene-centric foundation model for contextualized gene representations that support multigene perturbation prediction.</span>
           <a href="https://x.com/eigenNick/status/2117336472852553806">(Video Explainer)</a>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.64898/2026.02.18.706454v2">Cell Perturbation Benchmarking</a> —
-          <span>Trained and evaluated <strong>diffusion, flow-matching, schrodinger-bridge and graph neural network models</strong>.</span>
+          <span>Trained and evaluated diffusion, flow-matching, schrodinger-bridge and graph neural network models.</span>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1">AIDO.Cell</a> —
-          <span>Led a team for <strong>600M-parameter single-cell foundation model</strong> for scaling pretraining with minimal priors.</span>
+          <span>Led a team for 600M-parameter single-cell foundation model for scaling pretraining with minimal priors.</span>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2024.12.01.625444v1">AIDO.DNA</a> —
-          <span>In charge of pretraining <strong>7B-parameter genome foundation model</strong> on 256 A100 GPUs for variant effect prediction and sequence generation.</span>
+          <span>In charge of pretraining 7B-parameter genome foundation model on 256 A100 GPUs for variant effect prediction and sequence generation.</span>
         </li>
         <li>
           <a class="research-project-name" href="https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3">HEIMDALL</a> —
-          <span>Examined how <strong>tokenizer design affects transfer learning</strong> in single-cell pretrained models.</span>
+          <span>Examined how tokenizer design affects transfer learning in single-cell pretrained models.</span>
         </li>
       </ul>
     </div>
@@ -64,7 +64,8 @@ latest_posts: {"enabled": false, "scrollable": false, "limit": 3}
 
 <section class="home-section" aria-labelledby="latest-posts-heading">
 <h2 id="latest-posts-heading">Latest Posts</h2>
-<p>Soon!</p>
+{% assign latest_blog = site.posts | where: "permalink", "/blog/2026/bio-pretrain-design-part1/" | first %}
+<p><time datetime="{{ latest_blog.date | date: '%Y-%m-%d' }}">{{ latest_blog.date | date: '%b %-d, %Y' }}</time> &middot; <a href="{{ latest_blog.url | relative_url }}">{{ latest_blog.title }}</a></p>
 </section>
 
 <section class="home-section" aria-labelledby="publications-heading">
